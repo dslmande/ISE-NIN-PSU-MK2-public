@@ -9,6 +9,8 @@ edge-connector pinout, same single 12 V feed. Everything changes behind that.
 **This is not a repair.** The factory board works. The point is a much quieter
 analogue supply and a precision reference for the VCO chips.
 
+Boards are available on request — see [Getting a board](#getting-a-board).
+
 ![Board, top side](images/board-top.png)
 
 ---
@@ -160,6 +162,16 @@ buyable:
   is power rating, and R8 runs at 0.13 W of 1 W.
 
 ![Board, bottom side](images/board-bottom.png)
+
+---
+
+## Getting a board
+
+**Boards are available on request.** Send an enquiry through
+[DSL-man.de](https://dsl-man.de) and say how many you need.
+
+The KiCad sources and the fabrication package are not public, so this is the
+way to get one — there is no gerber download here to hand to a board house.
 
 ---
 
