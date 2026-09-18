@@ -167,8 +167,10 @@ buyable:
 
 ## Getting a board
 
-**Boards are available on request.** Send an enquiry through
-[DSL-man.de](https://dsl-man.de) and say how many you need.
+**Boards are available on request.** Details and how to ask are on the
+project page in the DIYsynth wiki:
+
+[ISE-NIN DIY PSU card upgrade](https://diysynth.wiki.dsl-man.de/wiki/spaces/ISENIN/pages/1244364806/ISE-NIN+DIY+PSU+card+upgrade)
 
 The KiCad sources and the fabrication package are not public, so this is the
 way to get one — there is no gerber download here to hand to a board house.
