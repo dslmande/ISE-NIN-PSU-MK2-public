@@ -11,7 +11,9 @@ analogue supply and a precision reference for the VCO chips.
 
 Boards are available on request — see [Getting a board](#getting-a-board).
 
-![Board, top side](images/board-top.png)
+![The card built and running in the instrument](images/board-in-instrument.jpg)
+
+*Fabricated rev 2.0a, assembled and plugged into the ISE-NIN backplane.*
 
 ---
 
@@ -75,6 +77,8 @@ With all eight voice cards fitted and running:
 Rails sit at +14.234 V and −14.222 V. The converter module delivers about 9.9 W
 of its 30 W, so there is a lot of headroom — the design is limited by noise
 targets, not by power.
+
+![Board, top side](images/board-top.png)
 
 ---
 
