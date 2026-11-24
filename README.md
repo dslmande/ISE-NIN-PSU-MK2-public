@@ -10,6 +10,8 @@ edge-connector pinout, same single 12 V feed. Everything changes behind that.
 analogue supply and a precision reference for the VCO chips.
 
 Boards are available on request — see [Getting a board](#getting-a-board).
+Building one: **[assembly guide for v2.2](ASSEMBLY.md)**
+([PDF](ASSEMBLY.pdf)).
 
 ![The card built and running in the instrument](images/board-in-instrument.jpg)
 
@@ -129,8 +131,11 @@ has no practical meaning.
 
 The SMD parts are machine-assembled by the board house from their own library
 and are not listed here. What follows is everything that goes on by hand: the
-through-hole parts, plus two positions that are footprinted but deliberately
-left unfitted.
+through-hole parts. Fit only these — the
+[assembly guide](ASSEMBLY.md) explains why.
+
+C38 and R34 on the back of the card are footprinted but stay empty, despite
+the "FIT IF NEEDED" in the silkscreen, and are not part of the BOM.
 
 Paste [`bom/mouser-bom.csv`](bom/mouser-bom.csv) straight into Mouser's BOM tool.
 
@@ -138,7 +143,6 @@ Paste [`bom/mouser-bom.csv`](bom/mouser-bom.csv) straight into Mouser's BOM tool
 |---|---:|---|---|---|---|
 | `667-EEU-FM1E221` | 2 | `EEU-FM1E221` | 220 uF / 25 V aluminium electrolytic, low impedance | C1, C2 | Panasonic FM. Input smoothing. |
 | `647-UBW1E101MPD` | 6 | `UBW1E101MPD` | 100 uF / 25 V aluminium electrolytic, standard ESR | C7, C8, C28, C29, C30, C31 | Nichicon BW. Deliberately NOT low-ESR - the ESR damps the output LC filter. |
-| `80-C0805C473K1R` | 1 | `C0805C473K1RACTU` | 47 nF / 100 V X7R, 0805 | C38 | Optional, not fitted. Common-mode path. |
 | `576-0218002.MXP` | 1 | `0218002.MXP` | 2 A slow-blow fuse, 5 x 20 mm | F1 | Littelfuse 218 series. |
 | `576-00BS0232P` | 1 | `00BS0232P` | Fuse holder cover | F1 (cover) | Littelfuse. Fits the 0PTF0078P. |
 | `576-0PTF0078P` | 1 | `0PTF0078P` | Fuse holder, 5 x 20 mm, open, horizontal | F1 (holder) | Littelfuse PTF series, PCB mount. |
@@ -147,7 +151,6 @@ Paste [`bom/mouser-bom.csv`](bom/mouser-bom.csv) straight into Mouser's BOM tool
 | `604-WP710A10LID` | 7 | `WP710A10LID` | Red LED, T-1 (3 mm), low current, diffused | LED1, LED2, LED3, LED4, LED5, LED6, LED7 | Kingbright, 2 mA. One power-good indicator per rail. |
 | `660-MOS1CT528R390J` | 1 | `MOS1CT528R390J` | 39 ohm / 1 W metal oxide, axial | R8 | KOA. Pre-drop ahead of the +5 VA regulator. |
 | `71-WK202070C6809F220` | 1 | `WK202070C6809F2200` | 68 ohm / 1 W metal oxide, axial, 1 %, 50 ppm/K | R11 | Vishay WK2. Pre-drop ahead of the -5 V regulator. |
-| `71-CRCW0805-1-E3` | 1 | `CRCW08051R00FKEA` | 1 ohm, 0805 | R34 | Optional, not fitted. Damping for C38. |
 | `495-THN30-2423WIR` | 1 | `THN 30-2423WIR` | DC/DC converter, 30 W, isolated, +/-15 V out | U1 | Traco THN 30-2423WIR. The one part carried over from the original board. |
 | `919-R-78E5.0-1.0` | 1 | `R-78E5.0-1.0` | Switching regulator, 5 V / 1 A, SIP-3 | U9 | Recom. Digital rail, straight off the raw 12 V. |
 | `919-R-78E3.3-1.0` | 1 | `R-78E3.3-1.0` | Switching regulator, 3.3 V / 1 A, SIP-3 | U10 | Recom. Digital rail, straight off the raw 12 V. |
@@ -188,7 +191,7 @@ way to get one — there is no gerber download here to hand to a board house.
 | Concept, schematic, dimensioning | done |
 | Layout | done, 4 layers, ERC and DRC clean |
 | Fabricated | rev 2.0, September 2026, assembled and running |
-| Current release | **v2.2** — corrected current limits, new fuse holder; not yet fabricated |
+| Current release | **v2.2** — corrected current limits, new fuse holder; fabricated November 2026, working |
 | Noise measurement | **not done yet** |
 
 Between rev 2.0 and v2.2 the current limits of two regulators were corrected. On
