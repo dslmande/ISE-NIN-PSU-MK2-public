@@ -206,6 +206,8 @@ finger (table below). None of them may read as a short.
 
 ### Where to measure
 
+![Edge connector pinout: which finger carries which rail](images/board-v2.2-edge-pinout.jpg)
+
 Look at the component side with the gold fingers at the bottom. **Finger 1 is
 at the left end**, counting to the right. The gap in the fingers is position
 20; to the right of it are fingers 21 and 22. Front and back finger carry the

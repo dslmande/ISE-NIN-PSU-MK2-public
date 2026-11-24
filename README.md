@@ -18,6 +18,13 @@ Building one: **[assembly guide for v2.2](ASSEMBLY.md)**
 *Version 2.2 as it arrives — SMD parts fitted by the board house, the
 through-hole parts are yours to solder. See the [assembly guide](ASSEMBLY.md).*
 
+### Where the rails are
+
+![Edge connector pinout: which finger carries which rail](images/board-v2.2-edge-pinout.jpg)
+
+Measure the rails at the edge fingers, against finger 8 or 21. The round test
+pads on the card are for troubleshooting only.
+
 ---
 
 ## Why bother
