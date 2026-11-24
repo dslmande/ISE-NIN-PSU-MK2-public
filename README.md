@@ -81,8 +81,6 @@ Rails sit at +14.234 V and −14.222 V. The converter module delivers about 9.9 
 of its 30 W, so there is a lot of headroom — the design is limited by noise
 targets, not by power.
 
-![Board, top side](images/board-top.png)
-
 ---
 
 ## Ripple and noise
