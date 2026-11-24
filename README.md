@@ -174,6 +174,11 @@ buyable:
 
 ## Getting a board
 
+![Version 2.2 as delivered: SMD parts fitted, through-hole positions empty](images/board-v2.2-as-delivered.jpg)
+
+*Version 2.2 as it arrives — SMD parts fitted by the board house, the
+through-hole parts are yours to solder. See the [assembly guide](ASSEMBLY.md).*
+
 **Boards are available on request.** Details and how to ask are on the
 project page in the DIYsynth wiki:
 
