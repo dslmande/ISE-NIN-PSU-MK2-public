@@ -13,9 +13,10 @@ Boards are available on request — see [Getting a board](#getting-a-board).
 Building one: **[assembly guide for v2.2](ASSEMBLY.md)**
 ([PDF](ASSEMBLY.pdf)).
 
-![The card built and running in the instrument](images/board-in-instrument.jpg)
+![Version 2.2 as delivered: SMD parts fitted, through-hole positions empty](images/board-v2.2-as-delivered.jpg)
 
-*Fabricated rev 2.0a, assembled and plugged into the ISE-NIN backplane.*
+*Version 2.2 as it arrives — SMD parts fitted by the board house, the
+through-hole parts are yours to solder. See the [assembly guide](ASSEMBLY.md).*
 
 ---
 
@@ -174,10 +175,9 @@ buyable:
 
 ## Getting a board
 
-![Version 2.2 as delivered: SMD parts fitted, through-hole positions empty](images/board-v2.2-as-delivered.jpg)
+![The card built and running in the instrument](images/board-in-instrument.jpg)
 
-*Version 2.2 as it arrives — SMD parts fitted by the board house, the
-through-hole parts are yours to solder. See the [assembly guide](ASSEMBLY.md).*
+*Fabricated rev 2.0a, assembled and plugged into the ISE-NIN backplane.*
 
 **Boards are available on request.** Details and how to ask are on the
 project page in the DIYsynth wiki:
